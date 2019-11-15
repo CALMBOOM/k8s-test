@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello
+  labels:
+    app: go
+
+spec:
+  containers:
+  - image: hello:v1
+    name: hello
