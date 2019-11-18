@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: hello
-  pullPolicy: Never
+  repository: core.harbor.k8s.ebupt.com/thr/hello:v1
+  pullPolicy: Always
 
-imagePullSecrets: []
+imagePullSecrets: demo-harbor
 nameOverride: ""
 fullnameOverride: ""
 
